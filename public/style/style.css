@@ -1,0 +1,176 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: myFirstFont;
+}
+
+.background-blue{
+  background-color: var(--blueColor);
+}
+.background-offwhite{
+  background-color: var(--offwhiteColor);
+}
+.background-beige{
+  background-color: var(--beigeColor);
+}
+.background-white{
+  background-color: white;
+}
+
+.background-transparent{
+  background-color: transparent;
+}
+.position-absolute-top{
+  position:absolute;  
+  z-index:1;
+  top:0;
+  right:0;
+  left:0
+}
+.width100height100{
+  width:100%;
+  height:100%
+}
+
+.width100heightauto{
+  width: 100%;
+  height:auto;
+}
+
+.width50heightauto{
+  width: 65%;
+  height:auto;
+}
+
+.border-raduis-25 {
+  border-radius: 25px !important;
+}
+
+.padding-vertically4-horizontally6{
+  padding: 4vh 6vh; 
+}
+
+.padding-vertically3-horizontally4{
+  padding: 3vh 4vh; 
+}
+
+.padding-vertically1-horizontally2{
+  padding: 1vh 2vh; 
+}
+
+.padding-horizontally-10vh{
+  padding-left:10vh;
+  padding-right:10vh;
+}
+
+.padding-horizontally-5vh{
+  padding-left:5vh;
+  padding-right:5vh;
+}
+
+.padding-vertically-10vh{
+  padding-top:10vh;
+  padding-bottom:10vh;
+}
+
+.padding-vertically-5vh{
+  padding-top:5vh;
+  padding-bottom:5vh;
+}
+
+.image-size-w22h22 {
+  width: 22vh !important;
+  height:22vh;
+}
+
+
+
+.without-border{
+  border: 0px;
+}
+
+.middle-centre {
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+.wrapper {
+  height: 700px;
+  display: flex;
+  gap: 20px;
+}
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.image-slider{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    margin-left: 60%;
+    padding: 0;
+    overflow: hidden;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+  display: block;
+  color: white !important;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+a.active, a:focus {
+  color: var(--orangeColor) !important;
+}
+
+.carousel-indicators li {
+  border-radius: 12px;
+  width: 12px;
+  height: 12px;
+  background-color: var(--beigeColor);
+}
+
+.carousel-title{
+  font-family: mySecondFont;
+  color: #fff;
+  font-size: 70px;
+}
+
+.carousel-des{
+  font-family: myFirstFont;
+  color: var(--blueColor);
+  font-size: 50px;
+  text-align: center;
+}
+
+.carousel-presentation
+{
+  display: flex;
+  justify-content: center;
+  padding: 170px 0px;
+}
+
+.padding-vertically60 {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+

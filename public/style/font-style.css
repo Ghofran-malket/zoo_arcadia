@@ -1,0 +1,206 @@
+.white {
+    color: white;
+}
+
+.blue {
+    color: var(--blueColor);
+}
+
+.black {
+    color: black;
+}
+
+.offWhite {
+    color: var(--offwhiteColor);
+}
+
+.orange {
+    color: var(--orangeColor);
+}
+
+.gold {
+    color: gold;
+}
+
+.grey333 {
+    color: #333;
+}
+
+.grey555 {
+    color: #555;
+}
+
+.grey666 {
+    color: #666;
+}
+
+.grey777 {
+    color: #777;
+}
+
+.gery888 {
+    color: #888;
+}
+
+.itim {
+    font-family: myFirstFont;
+}
+
+.irish {
+    font-family: mySecondFont;
+}
+
+.size-15 {
+    font-size: 15px;
+}
+
+.size-20 {
+    font-size: 20px;
+}
+
+.size-25 {
+    font-size: 25px;
+}
+
+.size-30 {
+    font-size: 30px;
+}
+
+.size-35 {
+    font-size: 35px;
+}
+
+.size-40 {
+    font-size: 40px;
+}
+
+.size-45 {
+    font-size: 45px;
+}
+
+.size-50 {
+    font-size: 50px;
+}
+
+.size-55 {
+    font-size: 55px;
+}
+
+.size-60 {
+    font-size: 60px;
+}
+
+.size-65 {
+    font-size: 65px;
+}
+
+.size-70 {
+    font-size: 70px;
+}
+
+.limit-line-6 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    /* number of lines to show */
+    line-clamp: 6;
+    -webkit-box-orient: vertical;
+}
+
+
+.itim-white50 {
+    font-family: myFirstFont;
+    color: white;
+    font-size: 50px;
+}
+
+.itim-white45 {
+    font-family: myFirstFont;
+    color: white;
+    font-size: 40px;
+}
+
+
+.itim-black35 {
+    font-family: myFirstFont;
+    color: black;
+    font-size: 30px;
+}
+
+.itim-blue35 {
+    font-family: myFirstFont;
+    color: var(--blueColor);
+    font-size: 30px;
+}
+
+.text-indent10 {
+    text-indent: 10px;
+}
+
+.itim-grey35 {
+    font-family: myFirstFont;
+    color: #333;
+    font-size: 30px;
+
+}
+
+.itim-grey25 {
+    font-family: myFirstFont;
+    color: #666;
+    font-size: 25px;
+
+}
+
+.itim-grey25 {
+    font-family: myFirstFont;
+    color: #555;
+    font-size: 30px;
+}
+
+.itim-grey777-25 {
+    font-family: myFirstFont;
+    color: #777;
+    font-size: 20px;
+}
+
+
+.itim-blue50 {
+    font-family: myFirstFont;
+    color: var(--blueColor);
+    font-size: 50px;
+}
+
+
+.irish-offwhite35 {
+    font-family: mySecondFont;
+    font-size: 35px;
+    color: var(--offwhiteColor);
+}
+
+.irish-offgrey20 {
+    font-family: mySecondFont;
+    font-size: 15px;
+    color: #888;
+}
+
+.irish-offgrey25 {
+    font-family: mySecondFont;
+    font-size: 20px;
+    color: #888;
+}
+
+
+.itim-white30 {
+    font-family: myFirstFont;
+    color: white;
+    font-size: 30px;
+}
+
+
+.irish-blue-45 {
+    font-family: mySecondFont;
+    font-size: 45px;
+    color: var(--blueColor);
+}
+
